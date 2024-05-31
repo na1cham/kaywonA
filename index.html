@@ -1,0 +1,138 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계원예술대학교 소개</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.5em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .content {
+            padding: 2em;
+            background: #fff;
+            margin: 1em 0;
+        }
+        .content h2 {
+            margin-top: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(20% - 10px);
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>계원예술대학교</h1>
+    </header>
+    <nav>
+        <a href="#about">학교 소개</a>
+        <a href="#departments">학과</a>
+        <a href="#gallery">갤러리</a>
+        <a href="#contact">문의하기</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>학교 소개</h2>
+            <p>계원예술대학교는 창의성과 혁신성을 바탕으로 예술과 디자인 분야에서 탁월한 인재를 양성하는 전문 대학교입니다.</p>
+            <h2>교육목표</h2>
+            <p>예술 디자인 과학기술의 융합을 통한 창조적 문화산업의 리더 양성</p>
+            <h2>계원예술대학교 정보</h2>
+            <p>설립인가 : 1992년 12월 11일 / 개교 : 1993년 3월 1일 / 전문대학 개편 : 1995년 12월 27일 / 소재지 : 경기도 의왕시 내손동 768번지 / 총장 : 권창현</p>
+        </section>
+        <section id="departments" class="content">
+            <h2>학과</h2>
+            <ul>
+                <li>공간연출과</li>
+                <li>사진예술과</li>
+                <li>순수미술과</li>
+                <li>융합예술과</li>
+                <li>광고,브랜드디자인과</li>
+                <li>시각디자인과</li>
+                <li>게임미디어과</li>
+                <li>디지털미디어디자인과</li>
+                <li>애니메이션과</li>
+                <li>영상디자인과</li>
+                <li>리빙가구디자인과</li>
+                <li>스마트프로덕프디자인과</li>
+                <li>플라워디자인과</li>
+                <li>건축디자인과</li>
+                <li>실내건축디자인과</li>
+                <li>전시콘텐츠디자인과</li>
+            </ul>
+        </section>
+        <section id="gallery" class="content">
+            <h2>갤러리</h2>
+            <div class="gallery">
+                <img src="https://i.imgur.com/RXPkoK4.png" alt="학교 이미지 1">
+                <img src="https://i.imgur.com/Hv8NN8N.png" alt="학교 이미지 2">
+                <img src="https://i.imgur.com/m2TCilr.png" alt="학교 이미지 3">
+                <img src="https://i.imgur.com/9xV3uUI.png" alt="학교 이미지 4">
+                <img src="https://i.imgur.com/22rUcwY.png" alt="학교 이미지 5">
+            </div>
+        </section>
+        <section id="contact" class="content">
+            <h2>문의하기</h2>
+            <p>주소: 경기도 의왕시 계원대학로 66</p>
+            <p>전화: 1899-5823</p>
+            <p>홈페이지: https://www.kaywon.ac.kr/CmsHome/MainDefault.aspx</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 계원예술대학교. 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
